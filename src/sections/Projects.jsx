@@ -34,7 +34,7 @@ export default function Projects() {
   ];
 
   return (
-    <div className="bg-gradient-to-br from-purple-950 via-indigo-950 to-black py-10 px-4 sm:px-6 lg:px-8">
+    <div className="bg-gradient-to-br from-purple-950 via-indigo-950 to-black py-10 px-4 sm:px-6 lg:px-8" id="projects">
       {/* Floating Lights */}
       <div className="absolute inset-0 z-0">
         <div className="absolute top-10 left-10 w-72 h-72 bg-purple-600 rounded-full opacity-20 blur-3xl animate-pulse-slow"></div>

@@ -63,7 +63,7 @@ const Navbar = () => {
             >
               MD
             </div>
-            <span className="text-xl font-semibold">MosesDev.</span>
+            <span className="text-xl font-semibold">MosDev.</span>
           </div>
 
           {/* Desktop Menu */}
@@ -94,20 +94,21 @@ const Navbar = () => {
             </li>
             <li>
               <a
+                href="#skills"
+                className="hover:text-orange-500 transition-colors"
+              >
+                Skills
+              </a>
+            </li>
+            <li>
+              <a
                 href="#projects"
                 className="hover:text-orange-500 transition-colors"
               >
                 Projects
               </a>
             </li>
-            <li>
-              <a
-                href="#blogs"
-                className="hover:text-orange-500 transition-colors"
-              >
-                Blogs
-              </a>
-            </li>
+
             <li>
               <a
                 href="#testimonials"
@@ -175,6 +176,15 @@ const Navbar = () => {
               </li>
               <li>
                 <a
+                  href="#skills"
+                  className="text-2xl hover:text-orange-500 transition-colors"
+                  onClick={toggleMenu}
+                >
+                  Skills
+                </a>
+              </li>
+              <li>
+                <a
                   href="#projects"
                   className="text-2xl hover:text-orange-500 transition-colors"
                   onClick={toggleMenu}
@@ -182,15 +192,7 @@ const Navbar = () => {
                   Projects
                 </a>
               </li>
-              <li>
-                <a
-                  href="#blogs"
-                  className="text-2xl hover:text-orange-500 transition-colors"
-                  onClick={toggleMenu}
-                >
-                  Blogs
-                </a>
-              </li>
+
               <li>
                 <a
                   href="#testimonials"

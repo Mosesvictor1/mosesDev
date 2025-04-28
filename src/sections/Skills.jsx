@@ -95,7 +95,10 @@ const SkillCard = ({ icon, name, percent, delay }) => {
 
 export default function SkillsSection() {
   return (
-    <section className="relative py-20 px-6 overflow-hidden bg-purple-950 bg-gradient-to-br from-purple-950 to-indigo-950">
+    <section
+      className="relative py-20 px-6 overflow-hidden bg-purple-950 bg-gradient-to-br from-purple-950 to-indigo-950"
+      id="skills"
+    >
       {/* Background effect with light effect */}
       <div className="absolute inset-0 opacity-20 ">
         <div

@@ -6,7 +6,10 @@ export default function About() {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div className="relative overflow-hidden flex flex-col lg:flex-row items-center justify-center bg-gradient-to-br from-[#0f0c29] via-[#302b63] to-[#24243e]  text-white p-4 pt-40 sm:p-6 md:p-8 lg:pt-40 lg:pb-20 w-full gap-10  lg:gap-40">
+    <div
+      className="relative overflow-hidden flex flex-col lg:flex-row items-center justify-center bg-gradient-to-br from-[#0f0c29] via-[#302b63] to-[#24243e]  text-white p-4 pt-40 sm:p-6 md:p-8 lg:pt-40 lg:pb-20 w-full gap-10  lg:gap-40"
+      id="about"
+    >
       {/* 3D abstract shapes */}
       <div className="absolute -top-20 -left-20 w-72 h-72 bg-pink-400/20 rounded-full blur-3xl animate-pulse"></div>
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-purple-500/20 rounded-full blur-2xl animate-pulse"></div>
@@ -65,12 +68,12 @@ export default function About() {
       {/* Right side - Content */}
       <div className="max-w-full lg:max-w-lg text-center lg:text-left z-10">
         <div className="flex items-center mb-2 justify-center lg:justify-start">
-          <div className="w-5 h-0.5 bg-pink-400 mr-2"></div>
-          <span className="text-pink-300 font-medium">About Me</span>
+          <div className="w-5 h-0.5 bg-orange-600 mr-2"></div>
+          <span className="text-white font-medium">About Me</span>
         </div>
 
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
-          Who is <span className="text-pink-300">Moses Dev</span>?
+          Who is <span className="text-orange-600">Mos Dev</span>?
         </h2>
 
         <p className="text-white/80 mb-6 md:mb-10 px-4 lg:px-0">
@@ -85,7 +88,7 @@ export default function About() {
             { value: "4+", label: "Years of Experience" },
           ].map(({ value, label }, i) => (
             <div key={i} className="text-center">
-              <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-pink-300">
+              <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-orange-600">
                 {value}
               </h3>
               <p className="text-white/80 text-xs sm:text-sm">{label}</p>
@@ -104,15 +107,17 @@ export default function About() {
             Download CV
             <span
               className={`rounded-full p-1 transition-all duration-300 ${
-                isHovered ? " bg-pink-500 font-bold" : "bg-pink-500 font-bold text-black"
+                isHovered
+                  ? " bg-orange-600 font-bold"
+                  : "bg-orange-600 font-bold text-black"
               }`}
             >
               <ArrowRight size={16} />
             </span>
           </button>
 
-          <div className="text-xl sm:text-2xl font-script italic text-pink-300">
-            Moses Dev
+          <div className="text-xl sm:text-2xl font-script italic text-orange-600">
+            Mos Dev
           </div>
         </div>
       </div>

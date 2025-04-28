@@ -47,7 +47,7 @@ export default function Testimonials() {
   ];
 
   return (
-    <div className="bg-purple-950 bg-gradient-to-br from-purple-950 to-indigo-950 text-white py-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+    <div className="bg-purple-950 bg-gradient-to-br from-purple-950 to-indigo-950 text-white py-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden" id="testimonials">
       {/* Background effect with light effect */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute inset-0" style={{ 

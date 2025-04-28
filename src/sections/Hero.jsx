@@ -36,7 +36,7 @@ export default function Hero() {
                   Hy! I Am
                 </span>
                 <span className="bg-gradient-to-r from-orange-500 via-pink-500 to-purple-500 text-transparent bg-clip-text">
-                  MosesDev
+                  MosDev
                 </span>
               </h1>
               <p className="text-sm sm:text-base md:text-lg lg:text-xl text-white max-w-lg">
@@ -46,9 +46,22 @@ export default function Hero() {
               </p>
             </div>
 
-            <button className="bg-orange-500 hover:bg-orange-600 text-white px-6 sm:px-8 py-2 sm:py-3 text-sm sm:text-base rounded-full font-medium transition-colors">
-              Hire Me
-            </button>
+            <div className="flex flex-wrap gap-4 sm:gap-6 justify-center">
+              <button className="bg-orange-600 hover:bg-orange-500 text-white px-4 sm:px-6 md:px-8 py-2 sm:py-3 text-xs sm:text-sm md:text-base rounded-full font-medium transition-colors">
+                Hire Me
+              </button>
+              <button
+                className="bg-orange-600 hover:bg-orange-500 text-white px-4 sm:px-6 md:px-8 py-2 sm:py-3 text-xs sm:text-sm md:text-base rounded-full font-medium transition-colors"
+                onClick={() =>
+                  window.open(
+                    "https://wa.me/2349138691147?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment%20to%20discuss%20your%20services%2C%20can%20you%20please%20provide%20more%20details%3F%0A%0Ahttps%3A%2F%2Fmoses-dev.vercel.app",
+                    "_blank"
+                  )
+                }
+              >
+                Book Appointment
+              </button>
+            </div>
           </div>
 
           {/* Right Content - Image and Floating Elements */}

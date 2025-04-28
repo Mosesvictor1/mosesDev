@@ -1,6 +1,7 @@
 import React from "react";
 import Tilt from "react-parallax-tilt";
 import { FiArrowRight } from "react-icons/fi";
+import { FaAppStoreIos,FaLaptopCode } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 // Animation config with zoom effect for each card
@@ -75,6 +76,7 @@ export default function Services() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.7 }}
+      id="services"
     >
       <div className="flex items-center mb-2">
         <div className="w-6 h-0.5 bg-gradient-to-r from-orange-500 to-pink-500 mr-2"></div>
@@ -112,30 +114,16 @@ export default function Services() {
         />
         <ServiceCard
           icon={
-            <img
-              src="assets/bell-icon.png"
-              alt="Application"
-              className="w-8 h-8 object-contain"
-              onError={(e) => {
-                e.target.onerror = null;
-                e.target.src =
-                  "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' viewBox='0 0 24 24' fill='none' stroke='%23EA580C' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9'%3E%3C/path%3E%3Cpath d='M13.73 21a2 2 0 0 1-3.46 0'%3E%3C/path%3E%3C/svg%3E";
-              }}
-            />
+           <FaAppStoreIos size={39} className="text-orange-600"/>
+           
           }
-          title="Application Design"
+          title="Mobile Application"
           description="Design and develop responsive, scalable applications that deliver exceptional user experiences across all platforms."
           delay={0.2}
         />
         <ServiceCard
           icon={
-            <div className="relative w-8 h-8">
-              <div className="w-full h-3/5 bg-orange-600 rounded-sm"></div>
-              <div className="absolute top-3/5 w-full h-2/5 flex">
-                <div className="w-1/2 h-full bg-orange-600 rounded-sm"></div>
-                <div className="w-1/2 h-full bg-pink-500 rounded-sm"></div>
-              </div>
-            </div>
+            <FaLaptopCode size={39} className="text-orange-600"/>
           }
           title="Website Design"
           description="Build beautiful, high-performance websites that combine stunning visuals with seamless functionality."
