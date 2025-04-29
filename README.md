@@ -20,8 +20,7 @@ This website showcases my work as a **Frontend Developer**, **UI/UX Designer**, 
 
 ## 📸 Live Demo
 
-👉 [View Website Here](https://your-portfolio-live-link.com)  
-*(Update with your live website link)*
+👉 [View Website Here](https://moses-dev.vercel.app/) 
 
 ---
 
@@ -29,9 +28,8 @@ This website showcases my work as a **Frontend Developer**, **UI/UX Designer**, 
 
 If you're interested in working together or have any inquiries, feel free to reach out!
 
-- LinkedIn: (https://linkedin.com/in/your-profile)
 - Email: victormoses2b@gmail.com
-- Portfolio: (https://your-portfolio-website.com)
+- Portfolio: (https://moses-dev.vercel.app/)
 
 ---
 
