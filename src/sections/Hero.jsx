@@ -59,7 +59,7 @@ export default function Hero() {
                   )
                 }
               >
-                Book Appointment
+                Consultation
               </button>
             </div>
           </div>

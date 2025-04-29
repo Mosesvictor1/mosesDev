@@ -5,36 +5,39 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: "e-Learning Website - E-learning Web App Solution",
-      tags: ["Frontend Dev", "Web Design", "Wireframe"],
-      image:
-        "https://cdn.dribbble.com/userupload/6479319/file/original-8fb55f09d39f4425e04ab79345b5b1d6.png?format=webp&resize=400x300&vertical=center",
+      title: "Web3 Services  Web - App Design",
+      tags: ["Web Development", "Web Design", "Wireframe"],
+      image: "assets/webbo3.png",
+      link: "https://webbo3-0-w2w7.vercel.app/",
     },
     {
       id: 2,
-      title: "e-Learning Product, App Design",
-      tags: ["UI/UX Design", "App Design", "Wireframe"],
-      image:
-        "https://cdn.dribbble.com/userupload/17823681/file/original-c6f523c55ca07827322809d61f72c559.png?format=webp&resize=400x300&vertical=center",
+      title: "Appointments  Website - Doctor Appointments  Web App Solution",
+      tags: ["Frontend Dev", "Web Design", "Wireframe"],
+      image: "assets/MosesCare.png",
+      link: "https://moses-care.vercel.app/",
     },
     {
       id: 3,
-      title: "Real Estate App - Real Estate App Solution",
-      tags: ["Frontend Design", "App Design", "Wireframe"],
-      image:
-        "https://cdn.dribbble.com/userupload/18673480/file/original-bdaa94de43c5c93aed21ea8a2b318536.png?crop=0x0-3201x2401&format=webp&resize=400x300&vertical=center",
+      title: "Restaurant Product, UI Design",
+      tags: ["UI/UX Design", "Web Design", "Wireframe"],
+      image: "assets/Orderuk.png",
+      link: "https://www.figma.com/design/JceAaJ8ewZZy0S2d2nX0dI/Food-Ordering-web-app-by-Victor-Moses?node-id=0-1&t=JyxcDw9cl2HsWb3f-1",
     },
     {
       id: 4,
-      title: "NFT Mobile App UI Design",
-      tags: ["UI/UX Design", "Web Design", "Wireframe"],
+      title: "Product Branding - Product Branding Design",
+      tags: ["Graphics Design", "Graphics", "Branding"],
       image:
-        "https://cdn.dribbble.com/userupload/14673998/file/original-5de50afb3525b02c46c24784cdf9be11.png?format=webp&resize=400x300&vertical=center",
+        "assets/Branding.jpg",
     },
   ];
 
   return (
-    <div className="bg-gradient-to-br from-purple-950 via-indigo-950 to-black py-10 px-4 sm:px-6 lg:px-8" id="projects">
+    <div
+      className="bg-gradient-to-br from-purple-950 via-indigo-950 to-black py-10 px-4 sm:px-6 lg:px-8"
+      id="projects"
+    >
       {/* Floating Lights */}
       <div className="absolute inset-0 z-0">
         <div className="absolute top-10 left-10 w-72 h-72 bg-purple-600 rounded-full opacity-20 blur-3xl animate-pulse-slow"></div>
@@ -116,9 +119,11 @@ export default function Projects() {
                 </h3>
               </div>
 
-              <button className=" text-white p-2 rounded-full flex items-center justify-center hover:bg-green-700 transition duration-300  bg-purple-950  shadow-purple-400 shadow-[inset_0_4px_20px_rgba(139,92,246,0.8)]">
-                <ArrowRight size={30} />
-              </button>
+              <a href={project.link} target="_blank">
+                <button className=" text-white p-2 rounded-full flex items-center justify-center hover:bg-green-700 transition duration-300  bg-purple-950  shadow-purple-400 shadow-[inset_0_4px_20px_rgba(139,92,246,0.8)]">
+                  <ArrowRight size={30} />
+                </button>
+              </a>
             </div>
           </motion.div>
         ))}

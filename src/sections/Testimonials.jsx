@@ -4,37 +4,37 @@ export default function Testimonials() {
   const testimonials = [
     {
       id: 1,
-      name: "Emma Johnson",
+      name: "Loveth Johnson",
       role: "Project Manager at Tech Innovators",
-      avatar: "https://images.unsplash.com/photo-1615453261246-4b32e335a4a0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWZyaWNhbiUyMExhZHl8ZW58MHx8MHx8fDA%3D",
+      avatar: "assets/tesmonial1.avif",
       quote: "\"Moses' expertise in design and development completely transformed our project. His attention to detail and creativity brought our vision to life seamlessly.\""
     },
     {
       id: 2,
-      name: "Michael Smith",
+      name: "Joy Smith",
       role: "Sales Executive at Global Enterprises",
-      avatar: "https://images.unsplash.com/photo-1615453261246-4b32e335a4a0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWZyaWNhbiUyMExhZHl8ZW58MHx8MHx8fDA%3D",
+      avatar: "assets/tesmonial2.avif",
       quote: "\"Working with Moses was a game changer for our project. He helped create a user experience that’s intuitive and visually stunning. I couldn’t recommend him more!\""
     },
     {
       id: 3,
-      name: "David Miller",
+      name: "Evelyn Miller",
       role: "Operations Manager at Tech Solutions",
-      avatar: "https://images.unsplash.com/photo-1615453261246-4b32e335a4a0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWZyaWNhbiUyMExhZHl8ZW58MHx8MHx8fDA%3D", 
+      avatar: "assets/tesmonial3.avif",
       quote: "\"Moses' work ethic and technical expertise in UI/UX design is top-tier. He helped us create an app that's both functional and engaging. Highly recommended!\""
     },
     {
       id: 4,
       name: "John Smith",
       role: "Business Solutions Group",
-      avatar: "https://images.unsplash.com/photo-1615453261246-4b32e335a4a0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWZyaWNhbiUyMExhZHl8ZW58MHx8MHx8fDA%3D",
+      avatar: "assets/tesmonial4.avif",
       quote: "\"As a business owner, working with Moses was an absolute pleasure. He crafted a solution that streamlined our operations and boosted our productivity. Outstanding work!\""
     },
     {
       id: 5,
       name: "Jane Doe",
       role: "Marketing Director at Creative Solutions",
-      avatar: "https://images.unsplash.com/photo-1615453261246-4b32e335a4a0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWZyaWNhbiUyMExhZHl8ZW58MHx8MHx8fDA%3D",
+      avatar: "assets/tesmonial5.avif",
       quote: "\"Moses took our brand's visual identity to the next level. His designs not only impressed but also elevated the user experience in ways I hadn't imagined before!\""
     },
     {

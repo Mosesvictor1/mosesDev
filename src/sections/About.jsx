@@ -97,24 +97,25 @@ export default function About() {
         </div>
 
         <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-between gap-4">
-          <button
-            className=" text-white px-4 sm:px-6 py-2 sm:py-3 rounded-full flex items-center gap-2  transition-all duration-300  bg-purple-950  shadow-purple-600 shadow-[inset_0_4px_20px_rgba(139,92,246,0.8)] 
-             hover:bg-purple-950  hover:shadow-purple-400 hover:shadow-[inset_0_4px_20px_rgba(139,92,246,0.8)]
-            "
-            onMouseEnter={() => setIsHovered(true)}
-            onMouseLeave={() => setIsHovered(false)}
-          >
-            Download CV
-            <span
-              className={`rounded-full p-1 transition-all duration-300 ${
-                isHovered
-                  ? " bg-orange-600 font-bold"
-                  : "bg-orange-600 font-bold text-black"
-              }`}
+          <a href="/moses-cv.pdf" download>
+            <button
+              className="text-white px-4 sm:px-6 py-2 sm:py-3 rounded-full flex items-center gap-2 transition-all duration-300 bg-purple-950 shadow-purple-600 shadow-[inset_0_4px_20px_rgba(139,92,246,0.8)] 
+    hover:bg-purple-950 hover:shadow-purple-400 hover:shadow-[inset_0_4px_20px_rgba(139,92,246,0.8)]"
+              onMouseEnter={() => setIsHovered(true)}
+              onMouseLeave={() => setIsHovered(false)}
             >
-              <ArrowRight size={16} />
-            </span>
-          </button>
+              Download CV
+              <span
+                className={`rounded-full p-1 transition-all duration-300 ${
+                  isHovered
+                    ? "bg-orange-600 font-bold"
+                    : "bg-orange-600 font-bold text-black"
+                }`}
+              >
+                <ArrowRight size={16} />
+              </span>
+            </button>
+          </a>
 
           <div className="text-xl sm:text-2xl font-script italic text-orange-600">
             Mos Dev

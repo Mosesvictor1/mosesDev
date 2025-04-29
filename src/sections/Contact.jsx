@@ -80,7 +80,7 @@ const Contact = () => {
             {[
               { Icon: FiPhone, text: "+234 9138691147" },
               { Icon: FiMail, text: "victormoses@gmail.com" },
-              { Icon: FaSkype, text: "example" },
+              { Icon: FaSkype, text: "" },
               { Icon: FiMapPin, text: "Lagos MainLand Nigeria" },
             ].map(({ Icon, text }, index) => (
               <div key={index} className="flex items-center gap-4">
