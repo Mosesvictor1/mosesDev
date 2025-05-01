@@ -105,14 +105,14 @@ const Contact = () => {
               { name: "email", placeholder: "Email *" },
               { name: "phone", placeholder: "Phone *" },
               { name: "interest", placeholder: "I'm Interested In *" },
-              { name: "budget", placeholder: "Budget Range (USD) *" },
+              { name: "budget", placeholder: "Budget Range (Optional) *" },
               { name: "country", placeholder: "Country *" },
             ].map(({ name, placeholder }, idx) => (
               <input
                 key={idx}
                 name={name}
                 type="text"
-                required
+                required={placeholder !== "Budget Range (Optional) *"}
                 placeholder={placeholder}
                 className="bg-purple-900/40 backdrop-blur-md rounded-lg p-4 text-white placeholder-purple-300 border border-purple-700 focus:border-purple-400 outline-none  shadow-purple-600/50 shadow-[inset_0_4px_12px_rgba(139,92,246,0.8)]"
               />

@@ -73,7 +73,7 @@ export default function About() {
         </div>
 
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
-          Who is <span className="text-orange-600">Mos Dev</span>?
+          Who is <span className="text-orange-600">Moses Dev</span>?
         </h2>
 
         <p className="text-white/80 mb-6 md:mb-10 px-4 lg:px-0">
@@ -118,7 +118,7 @@ export default function About() {
           </a>
 
           <div className="text-xl sm:text-2xl font-script italic text-orange-600">
-            Mos Dev
+            Moses Dev
           </div>
         </div>
       </div>

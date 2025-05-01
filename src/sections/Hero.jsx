@@ -1,6 +1,7 @@
 import React from "react";
-import { FaAirbnb, FaDropbox } from "react-icons/fa";
+import { FaAirbnb, FaDropbox, FaReact } from "react-icons/fa";
 import { SiUpwork, SiShopify } from "react-icons/si";
+import { RiReactjsLine } from "react-icons/ri";
 
 export default function Hero() {
   return (
@@ -36,7 +37,7 @@ export default function Hero() {
                   Hy! I Am
                 </span>
                 <span className="bg-gradient-to-r from-orange-500 via-pink-500 to-purple-500 text-transparent bg-clip-text">
-                  MosDev
+                  MosesDev
                 </span>
               </h1>
               <p className="text-sm sm:text-base md:text-lg lg:text-xl text-white max-w-lg">
@@ -47,9 +48,11 @@ export default function Hero() {
             </div>
 
             <div className="flex flex-wrap gap-4 sm:gap-6 justify-center">
-              <button className="bg-orange-600 hover:bg-orange-500 text-white px-4 sm:px-6 md:px-8 py-2 sm:py-3 text-xs sm:text-sm md:text-base rounded-full font-medium transition-colors">
-                Hire Me
-              </button>
+              <a href="#contact">
+                <button className="bg-orange-600 hover:bg-orange-500 text-white px-4 sm:px-6 md:px-8 py-2 sm:py-3 text-xs sm:text-sm md:text-base rounded-full font-medium transition-colors">
+                  Hire Me
+                </button>
+              </a>
               <button
                 className="bg-orange-600 hover:bg-orange-500 text-white px-4 sm:px-6 md:px-8 py-2 sm:py-3 text-xs sm:text-sm md:text-base rounded-full font-medium transition-colors"
                 onClick={() =>
@@ -94,6 +97,27 @@ export default function Hero() {
               </div>
             </div>
 
+            {/*  */}
+            {/* Floating Elements */}
+            <div className="absolute top-[-40px] md:top-4 -left-2 xs:left-0 sm:left-4  p-2 xs:p-3 rounded-lg  flex items-center gap-2 z-20 scale-[0.75] xs:scale-[0.85] sm:scale-100 bg-purple-950  shadow-purple-400 shadow-[inset_0_4px_10px_rgba(139,92,246,0.8)]">
+              <div className="w-6 sm:w-8 h-6 sm:h-8 bg-orange-100 rounded-full flex items-center justify-center">
+                <img
+                  src="assets/ui-ux-icon.png"
+                  alt="UI/UX"
+                  className="w-3 sm:w-4 md:w-5 h-3 sm:h-4 md:h-5"
+                />
+              </div>
+              <div>
+                <p className="text-xs sm:text-sm md:text-base font-semibold whitespace-nowrap">
+                  Coding
+                </p>
+                <p className="text-[10px] sm:text-xs md:text-sm text-white whitespace-nowrap">
+                  Frontend Developer
+                </p>
+              </div>
+            </div>
+            {/*  */}
+
             {/* Award Badge */}
             <div className="absolute top-[-40px] md:top-8 -right-2 xs:right-0 sm:right-4 p-2 xs:p-3 rounded-lg  flex items-center gap-2 z-20 scale-[0.75] xs:scale-[0.85] sm:scale-100  bg-purple-950  shadow-purple-400 shadow-[inset_0_4px_10px_rgba(139,92,246,0.8)]">
               <div className="w-6 sm:w-8 h-6 sm:h-8">
@@ -117,7 +141,7 @@ export default function Hero() {
             <div className="absolute bottom-[-40px] sm:bottom-[-60px] md:bottom-[-80px] left-4 h-40 sm:h-60 p-2 md:p-4 rounded-full  z-40 scale-[0.75] sm:scale-90 md:scale-100 bg-purple-950  shadow-purple-400 shadow-[inset_0_4px_10px_rgba(139,92,246,0.8)]">
               <div className="w-20 h-20 md:w-28 md:h-28 rounded-full p-[8px] md:p-[10px] animate-spin [animation-duration:8s] bg-gradient-to-br from-pink-500 via-purple-500 to-blue-500 hover:from-blue-500 hover:via-purple-500 hover:to-pink-500 transition-colors duration-500">
                 <div className="w-full h-full bg-white rounded-full flex items-center justify-center">
-                  <SiShopify className="text-[#96BF47] text-xl sm:text-2xl md:text-3xl" />
+                  <RiReactjsLine className="text-[#25a2b9] text-4xl font-extrabold sm:text-2xl md:text-5xl" />
                 </div>
               </div>
             </div>

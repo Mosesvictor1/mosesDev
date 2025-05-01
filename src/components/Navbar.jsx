@@ -63,7 +63,7 @@ const Navbar = () => {
             >
               MD
             </div>
-            <span className="text-xl font-semibold">MosDev.</span>
+            <span className="text-xl font-semibold">MosesDev.</span>
           </div>
 
           {/* Desktop Menu */}
